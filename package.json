@@ -1,0 +1,19 @@
+{
+  "name": "air-quality-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "echo 'Use pnpm --filter frontend dev and pnpm --filter backend dev'",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "seed": "pnpm --filter backend seed"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  }
+}
